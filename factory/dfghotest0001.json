@@ -1,0 +1,9 @@
+{
+	"name": "dfghotest0001",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3fc4b9d-6477-4d34-82a7-791cac2396c3",
+		"tenantId": "82a9aebd-f1af-4214-b0d2-24b55999e10b"
+	}
+}
