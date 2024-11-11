@@ -115,12 +115,8 @@
 								},
 								"enableStaging": false,
 								"translator": {
-									"type": "TabularTranslator",
-									"typeConversion": true,
-									"typeConversionSettings": {
-										"allowDataTruncation": true,
-										"treatBooleanAsNumber": false
-									}
+									"value": "@json('{\n\t\"type\": \"TabularTranslator\",\n\t\"mappings\": [\n\t\t{\n\t\t\t\"source\": {\n\t\t\t\t\"name\": \"col0\"\n\t\t\t},\n\t\t\t\"sink\": {\n\t\t\t\t\"name\": \"col1\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"source\": {\n\t\t\t\t\"name\": \"col2\"\n\t\t\t},\n\t\t\t\"sink\": {\n\t\t\t\t\"name\": \"col3\"\n\t\t\t}\n\t\t}\n\t],\n\t\"typeConversion\": true,\n\t\"typeConversionSettings\": {\n\t\t\"allowDataTruncation\": true,\n\t\t\"treatBooleanAsNumber\": false\n\t}\n}')",
+									"type": "Expression"
 								}
 							},
 							"inputs": [
